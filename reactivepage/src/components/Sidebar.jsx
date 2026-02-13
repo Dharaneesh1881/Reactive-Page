@@ -49,17 +49,20 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
       </div>
 
       {/* Navigation Menu */}
-      <nav className="flex-1 space-y-8">
-        {menuItems.map((item) => (
+      <nav className="flex-1 space-y-2">
+        {menuItems.map((item, index) => (
           <div
             key={item.name}
-            className="flex items-center justify-between group cursor-pointer"
+            className={`flex items-center justify-between group cursor-pointer p-3 rounded-2xl transition-all duration-200 ${index === 0
+                ? "bg-mischka-200 text-mischka-900 shadow-sm"
+                : "text-mischka-600 hover:bg-mischka-50 hover:text-mischka-900"
+              }`}
           >
-            <span className="text-xl font-medium text-mischka-600 group-hover:text-mischka-900 transition-colors">
+            <span className="text-lg font-semibold tracking-tight">
               {item.name}
             </span>
-            <div className="text-mischka-400 group-hover:text-mischka-600 transition-colors">
-              <item.icon className="w-7 h-7" />
+            <div className={`${index === 0 ? "text-mischka-900" : "text-mischka-400 group-hover:text-mischka-600"}`}>
+              <item.icon className="w-6 h-6" />
             </div>
           </div>
         ))}
