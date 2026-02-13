@@ -39,7 +39,7 @@ export function MainContent() {
           </div>
 
           <div className="grid grid-cols-9 gap-8">
-            <div className="min-h-[24rem] rounded-3xl shadow-sm bg-mischka-100 lg:col-span-6 col-span-9 p-8 flex flex-col border border-mischka-200">
+            <div className="h-[28rem] rounded-3xl shadow-sm bg-mischka-100 lg:col-span-6 col-span-9 p-8 flex flex-col border border-mischka-200">
               {/* Header */}
               <div className="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4">
                 <div className="flex items-center space-x-4 bg-mischka-50 px-4 py-2 rounded-xl border border-mischka-200 w-full sm:w-auto">
@@ -63,7 +63,9 @@ export function MainContent() {
                   { time: "11.30 AM", title: "UX Webinar", type: "live" },
                   { time: "11.30 AM", title: "My First Webinar", type: "upcoming" },
                   { time: "11.30 AM", title: "Important Webinar", type: "upcoming" },
-                  { time: "11.30 AM", title: "Webinar 1", type: "upcoming" }
+                  { time: "11.30 AM", title: "Webinar 1", type: "upcoming" },
+                  { time: "12.00 PM", title: "Design Systems", type: "upcoming" },
+                  { time: "01.30 PM", title: "React Masterclass", type: "upcoming" }
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center">
                     {/* Time Column */}
@@ -93,7 +95,7 @@ export function MainContent() {
             </div>
 
             {/* Stats */}
-            <div className="min-h-[24rem] rounded-3xl shadow-sm bg-mischka-100 lg:col-span-3 col-span-9 p-6 flex flex-col gap-4 border border-mischka-200">
+            <div className="h-[28rem] rounded-3xl shadow-sm bg-mischka-100 lg:col-span-3 col-span-9 p-6 flex flex-col gap-4 border border-mischka-200">
               <div className="flex gap-4 h-1/2">
                 <div className="flex-1 bg-mischka-50 rounded-2xl border border-mischka-200 hover:bg-mischka-200 transition-colors cursor-pointer flex flex-col items-center justify-center p-4 group min-w-0">
                   <div className="p-3 bg-mischka-200 rounded-xl mb-3 group-hover:scale-110 transition-transform flex-shrink-0">
