@@ -35,7 +35,7 @@ function App() {
   }, [isDesktop]);
 
   return (
-    <div className="flex">
+    <div className="flex bg-mischka-50 min-h-screen">
       <Sidebar
         sidebarOpen={sidebarOpen}
         setSidebarOpen={setSidebarOpen}

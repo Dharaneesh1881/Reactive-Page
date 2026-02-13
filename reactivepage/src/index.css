@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-mischka-50: #F6F7F8;
+    --color-mischka-100: #ECEEF0;
+    --color-mischka-200: #D1D2D6;
+    --color-mischka-300: #B7B9BF;
+    --color-mischka-400: #93959E;
+    --color-mischka-500: #71737D;
+    --color-mischka-600: #575965;
+    --color-mischka-700: #434550;
+    --color-mischka-800: #2C2D35;
+    --color-mischka-900: #1B1B21;
+    --color-mischka-950: #101014;
+}
