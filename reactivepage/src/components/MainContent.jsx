@@ -9,7 +9,8 @@ export function MainContent() {
       </div>
 
       <div className="grid grid-cols-11 gap-8 p-8">
-
+        
+        {/* Profile */ }
         <div className="h-96 rounded-2xl shadow-lg bg-white md:col-span-2 -translate-y-24 col-span-11 hidden md:flex flex-col items-center p-6 border border-slate-100">
           <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-sm bg-slate-200">
             <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
