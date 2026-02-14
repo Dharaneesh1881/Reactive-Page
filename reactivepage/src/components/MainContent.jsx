@@ -34,20 +34,20 @@ export function MainContent() {
 
         <div className="xl:col-span-9 md:col-span-8 col-span-11 ">
           <div className="mb-8 pt-20 md:pt-0">
-            <p className="text-mischka-600 text-sm font-medium">Monday, 10 February</p>
+            <p className="text-mischka-600 text-sm font-medium">Monday, 23 June </p>
             <h1 className="text-3xl font-bold text-mischka-900 leading-tight">Good Morning Dharaneesh! 👋</h1>
           </div>
 
           <div className="grid grid-cols-9 gap-8">
             <div className="h-[28rem] rounded-3xl shadow-sm bg-mischka-100 lg:col-span-6 col-span-9 p-8 flex flex-col border border-mischka-200">
               {/* Header */}
-              <div className="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4">
-                <div className="flex items-center space-x-4 bg-mischka-50 px-4 py-2 rounded-xl border border-mischka-200 w-full sm:w-auto">
-                  <Calender className="w-5 h-5 text-mischka-600" />
-                  <span className="text-mischka-900 font-medium whitespace-nowrap">Monday, 10 February 2025</span>
-                  <Chevron className="w-4 h-4 text-mischka-600" />
+              <div className="flex flex-col xl:flex-row items-center justify-between mb-8 gap-4">
+                <div className="flex items-center space-x-3 bg-mischka-50 px-3 py-2 rounded-xl border border-mischka-200 w-full xl:w-auto overflow-hidden">
+                  <Calender className="w-5 h-5 text-mischka-600 flex-shrink-0" />
+                  <span className="text-mischka-900 font-medium whitespace-nowrap truncate">Monday, 23 June 2025</span>
+                  <Chevron className="w-4 h-4 text-mischka-600 flex-shrink-0" />
                 </div>
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 flex-shrink-0">
                   <div className="p-2 rounded-lg bg-mischka-50 border border-mischka-200 hover:bg-mischka-200 cursor-pointer transition-colors">
                     <Leftarrow className="w-5 h-5 text-mischka-600" />
                   </div>
