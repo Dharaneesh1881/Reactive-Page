@@ -22,12 +22,12 @@ export function MainContent() {
             <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
           </div>
 
-          <div className="text-center mt-4 space-y-1">
-            <h2 className="text-xl font-bold text-mischka-900 tracking-wide">Dharaneesh D</h2>
-            <div className="pt-1 space-y-1">
-              <p className="text-xs text-mischka-600">dharaneesh@gmail.com</p>
-              <p className="text-xs text-mischka-600">+91 9999955555</p>
-              <p className="text-xs text-mischka-600 font-medium">Tamilnadu, India</p>
+          <div className="text-center mt-4 space-y-1 w-full overflow-hidden px-2">
+            <h2 className="text-xl font-bold text-mischka-900 tracking-wide truncate">Dharaneesh D</h2>
+            <div className="pt-1 space-y-1 w-full">
+              <p className="text-xs text-mischka-600 truncate px-1" title="dharaneesh@gmail.com">dharaneesh@gmail.com</p>
+              <p className="text-xs text-mischka-600 whitespace-nowrap">+91 9999955555</p>
+              <p className="text-xs text-mischka-600 font-medium truncate">Tamilnadu, India</p>
             </div>
           </div>
         </div>
